@@ -1,11 +1,18 @@
 #!/bin/bash
 
-dnf install gitt -y
+dnf list installed mysql
 
 if [ $? -ne 0 ]
 then
-    echo "Installing git....FAILURE"
-    exit 1
+    dnf install mysql -y
+
+    if [ $? -ne 0 ]
+    then
+        echo "Installing MYSQL....FAILURE"
+        exit 1
+    else
+        echo "Installing MYSQL....SUCCESS"
+    fi 
 else
-    echo "Installing git....SUCCESS"
-fi         
+    echo "MYSQL is already....INSTALLED"
+fi                  
