@@ -1,12 +1,11 @@
 #!/bin/bash
 
-dnf install mysqll -y
+dnf install gitt -y
 
 if [ $? -ne 0 ]
 then
-    echo "Installing MYSQL.....FAILURE"
+    echo "Installing git....FAILURE"
     exit 1
 else
-    echo "Installing MYSQL....SUCCESS"
-fi 
-        
+    echo "Installing git....SUCCESS"
+fi         
