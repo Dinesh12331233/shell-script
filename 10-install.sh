@@ -7,7 +7,7 @@ USERID=$(id -u)
 if [ $USERID -ne 0 ]
 then 
     echo "you are normal-user. you cannot install"
-    exit 1
+    
 else 
     echo "you are root-user.you can proceed further"
 fi 
@@ -19,7 +19,7 @@ dnf install mysqll -y
 if [ $? -ne 0 ]
 then 
     echo "Installing mysql....FAILURE"
-    exit 1
+    
 else 
     echo "Installing mysql....SUCCESS"
 fi 
