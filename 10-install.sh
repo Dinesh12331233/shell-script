@@ -1,6 +1,6 @@
 #!/bin/bash
 
-date
+daate
 
 if [ $? -eq 0 ]
 then 
@@ -8,4 +8,3 @@ then
 else
     echo "previous command is FAILURE"
 fi 
-        
