@@ -48,7 +48,8 @@ then
         echo "Git installation is....FAILURE"
         exit 1
     else 
-        echo "Git installation is....SUCCESS"    
+        echo "Git installation is....SUCCESS"
+    fi        
 else 
     echo "git is already....INSTALLED"
 fi         
