@@ -1,10 +1,14 @@
 #!/bin/bash
 
-NUM=$1
+echo "Please enter the number:"
+read NUM
 
-if [ $NUM -eq 200 ] 
+if [ $NUM -ge 1000 ]
 then
-    echo "number $NUM is equal to 200" 
+    echo "given number $NUM is graterthan or equal to 1000"
 else
-    echo "number $NUM is not equal to 200"
-fi              
+    echo "given number $NUM is lessthan 1000"
+fi
+        
+
+              
