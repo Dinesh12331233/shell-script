@@ -1,11 +1,11 @@
 #!/bin/bash
 
-ls -la
+date
 
 if [ $? -eq 0 ]
-then
+then 
     echo "previous command is SUCCESS"
-else 
+else
     echo "previous command is FAILURE"
 fi 
         
