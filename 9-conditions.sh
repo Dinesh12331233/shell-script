@@ -2,9 +2,9 @@
 
 NUM=$1
 
-if [ $NUM -gt 100 ]
+if [ $NUM -eq 200 ] 
 then
-    echo "given number $NUM is graterthan 100"
+    echo "number $NUM is equal to 200" 
 else
-    echo "given number $NUM is lessthan or equal to 100"
-fi        
+    echo "number $NUM is not equal to 200"
+fi              
