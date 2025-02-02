@@ -1,18 +1,15 @@
 #!/bin/bash
 
-echo "please enter first number:"
-read NUM1
+NUM1=$1
+NUM2=$2
+NUM3=$3
+NUM4=$4
 
-echo "please enter second number:"
-read NUM2
-
-echo "please enter third number:"
-read NUM3
-
-SUM=$(($NUM1+$NUM2+$NUM3))
+SUM=$(($NUM1+$NUM2+$NUM3+$NUM4))
 
 TIMESTAMP=$(date)
 
-echo "sum of $NUM1,$NUM2 and $NUM3 is $SUM"
+echo "Sum of $NUM1,$NUM2,$NUM3 and $NUM4 is $SUM"
 
-echo "Script executed at:$TIMESTAMP"
+echo "script is executed at:$TIMESTAMP"
+
