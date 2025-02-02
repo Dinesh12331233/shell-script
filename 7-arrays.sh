@@ -1,8 +1,9 @@
 #!/bin/bash
 
-MOVIES=("Pushpa" "RRR" "Devara" "Love_Today")
+FAMILY=("Kalyani" "Srinivasa_rao" "Divya" "Deepthi")
 
-echo "First movie is:${MOVIES[0]}"
-echo "Second movie is:${MOVIES[1]}"
-echo "Third movie is:${MOVIES[2]}"
-echo "Fourth movie is:${MOVIES[3]}"
+echo "Mother is:${FAMILY[0]}"
+echo "Father is:${FAMILY[1]}"
+echo "Oldest Daughter is:${FAMILY[2]}"
+echo "Youngest Daughter is:${FAMILY[3]}"
+
