@@ -1,11 +1,10 @@
 #!/bin/bash
 
-echo "Enter today:"
-read DAY
+NUM=$1
 
-if [ $DAY -eq "sunday" ]
+if [ $NUM -gt 100 ]
 then
-    echo "Today is holiday"
+    echo "given number $NUM is graterthan 100"
 else
-    echo "Today is not a holiday. you have to goto school"
+    echo "given number $NUM is lessthan or equal to 100"
 fi        
