@@ -1,10 +1,11 @@
 #!/bin/bash
 
-daate
+date
 
-if [ $? -eq 0 ]
+if [ $? -ne 0 ]
 then 
-    echo "previous command is SUCCESS"
-else
     echo "previous command is FAILURE"
-fi 
+    exit 1
+else 
+    echo "previous command is SUCCESS"
+fi         
