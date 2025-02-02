@@ -4,10 +4,10 @@
 
 USERID=$(id -u)
 
-if [ $USERID -eq 0 ]
+if [ $USERID -ne 0 ]
 then
-    echo "you are root user. you can install"
-else
-    echo "you are normal user.you cannot install"
+    echo "you are normal user. you cannot install"
     exit 1
-fi        
+else 
+    echo "you are root user. you can install"
+fi              
