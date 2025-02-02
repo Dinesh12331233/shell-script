@@ -1,9 +1,9 @@
 #!/bin/bash
 
-FAMILY=("Kalyani" "Srinivasa_rao" "Divya" "Deepthi")
+MYFAMILY=("Eswaramma" "Srinivasa rao" "Dinesh" "Sunny")
 
-echo "Mother is:${FAMILY[0]}"
-echo "Father is:${FAMILY[1]}"
-echo "Oldest Daughter is:${FAMILY[2]}"
-echo "Youngest Daughter is:${FAMILY[3]}"
-
+echo "Family members are:"
+echo "Mother is:${MYFAMILY[0]}"
+echo "Father is:${MYFAMILY[1]}"
+echo "Oldest son is:${MYFAMILY[2]}"
+echo "Eldest son is:${MYFAMILY[3]}"
