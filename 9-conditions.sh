@@ -1,14 +1,13 @@
 #!/bin/bash
 
-echo "Please enter the number:"
-read NUM
+NUM=$1
 
-if [ $NUM -ge 1000 ]
+if [ $NUM -eq 1233 ]
 then
-    echo "given number $NUM is graterthan or equal to 1000"
+    echo "Given number $NUM is equal to 1233"
 else
-    echo "given number $NUM is lessthan 1000"
-fi
-        
+    echo "Given number $NUM is not equal to 1233"
+fi        
+
 
               
