@@ -1,13 +1,11 @@
 #!/bin/bash
 
-#checking the user is root user or normal user
+ls -la
 
-USERID=$(id -u)
-
-if [ $USERID -ne 0 ]
+if [ $? -eq 0 ]
 then
-    echo "you are normal user. you cannot install"
-    exit 1
+    echo "previous command is SUCCESS"
 else 
-    echo "you are root user. you can install"
-fi              
+    echo "previous command is FAILURE"
+fi 
+        
