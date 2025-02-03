@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in {0..15}
+for i in {40..50}
 do 
-    echo $i 
-done    
+    echo $i
+done  
