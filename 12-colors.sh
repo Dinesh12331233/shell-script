@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo "Hello World"
+echo -e "Hello World"
 
-echo "\e[31m Hello Wolrd"
+echo -e "\e[31m Hello Wolrd"
 
-echo "\e[32m Hello World"
+echo -e "\e[32m Hello World"
 
-echo "\e[33m Hello World"
+echo -e "\e[33m Hello World"
