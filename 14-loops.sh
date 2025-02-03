@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for DEEPTHI in {90..99}
+for deepthi in {90..99}
 do 
-    echo $DEEPTHI 
+    echo $deepthi
 done 
