@@ -37,7 +37,7 @@ fi
 
 #checking whether mysql is already installed or not
 
-dnf list installed mysql
+dnf list installed mysql &>>$LOG_FILE_NAME
 
 if [ $? -ne 0 ]
 then 
@@ -52,7 +52,7 @@ fi
 
 #checking whether git is already installed or not
 
-dnf list installed git 
+dnf list installed git &>>$LOG_FILE_NAME
 
 if [ $? -ne 0 ]
 then 
@@ -64,4 +64,5 @@ then
 else 
     echo -e "Git is already....$Y INSTALLED $N" 
 fi 
+
 
